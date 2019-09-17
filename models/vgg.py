@@ -22,7 +22,6 @@ class VGG(nn.Module):
             nn.Dropout(0.5),
             nn.Linear(256, 10),
         )
-        self.classifier1 = nn.Linear(512, 10)
 
     def forward(self, x):
         out = self.features(x)
