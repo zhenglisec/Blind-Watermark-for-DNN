@@ -21,13 +21,13 @@ Others are the latest version
 
 # Results
 ## Test Loss curve (vgg19)
-![]($results/loss_curve.png)
+<img src="results/loss_curve.png">
 
 ## Images (top:origin;  middle:watermark;  below:logo)
 
-![MNIST]($resource/Epoch_98_img.png)
+<img src="results/mnist.png">
 
-![CIFAR10]($resource/Epoch_99_img.png)
+<img src="results/cifar10.png">
 
 # Notes
 * Random initialization and stochastic gradient descent can cause the objective function to find a new local minimum, which means that the result is different each time. Try to change `args.seed` to start another initialization for optimal results.
