@@ -21,7 +21,7 @@ Others are the latest version
 
 # Results
 ## Test Loss curve (vgg19)
-![]($results/results_test_4,5.png)
+![]($results/loss_curve.png)
 
 ## Images (top:origin;  middle:watermark;  below:logo)
 
